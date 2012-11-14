@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+# -*- coding: utf-8 -*-
 L = []
 for pow in range(7): L.append(2 ** pow)
 X = 5
