@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+# -*- coding: utf-8 -*-
 def isPrime(y):
 	x = y // 2
 	while x > 1:
