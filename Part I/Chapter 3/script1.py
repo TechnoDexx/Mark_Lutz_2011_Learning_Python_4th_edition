@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+# -*- coding: utf-8 -*-
 # Первый сценарий на языке Python
 import sys          # Загружает библиотечны модуль
 print(sys.platform)
