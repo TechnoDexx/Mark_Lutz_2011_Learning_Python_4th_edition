@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+# -*- coding: utf-8 -*-
 import math
 
 L = [2, 4, 9, 16, 25]
