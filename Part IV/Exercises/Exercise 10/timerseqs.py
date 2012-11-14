@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+# -*- coding: utf-8 -*-
 import sys, mytimer
 reps = 10000
 repslist = range(reps)
