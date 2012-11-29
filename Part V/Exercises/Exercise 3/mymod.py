@@ -13,8 +13,8 @@ def countChars(file):
 
 def test(name):
 	file = open(name)
-	print 'Lines: ' + str(countLines(file))
-	print 'Chars: ' + str(countChars(file))
+	print('Lines: ' + str(countLines(file)))
+	print('Chars: ' + str(countChars(file)))
 
 if __name__ == '__main__':
 	test(sys.argv[1])

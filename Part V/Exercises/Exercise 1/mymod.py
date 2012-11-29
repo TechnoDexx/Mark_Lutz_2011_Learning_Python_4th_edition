@@ -13,7 +13,7 @@ def countChars(file):
 
 def test(name):
 	file = open(name)
-	print 'Lines: ' + str(countLines(file))
-	print 'Chars: ' + str(countChars(file))
+	print('Lines: ' + str(countLines(file)))
+	print('Chars: ' + str(countChars(file)))
 
 test(sys.argv[1])
