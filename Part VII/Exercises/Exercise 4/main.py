@@ -9,7 +9,7 @@ import sys
 if sys.platform[:3] == 'win':
 	dirname = r'C:\Python30\Lib'
 else:
-	dirname = '/usr/lib/python'
+	dirname = '/usr/lib/python3'
 allsizes = []
 allpy = glob.glob(dirname + os.sep + '*.py')
 for filename in allpy:
