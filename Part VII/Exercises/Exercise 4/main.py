@@ -2,7 +2,10 @@
 # -*- coding:utf-8 -*-
 
 # Поиск наибольшего файла в единственном каталоге
-import os, glob
+import glob
+import os
+import sys
+
 if sys.platform[:3] == 'win':
 	dirname = r'C:\Python30\Lib'
 else:
