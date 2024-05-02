@@ -4,24 +4,27 @@
 class Adder:
 	def __init__(self, orig):
 		self.data = orig
-
+	
 	def add(self, x, y):
 		print("Not Implemented")
-
+	
 	def __add__(self, summand):
 		return self.add(self.data, summand)
+
 
 class ListAdder(Adder):
 	def add(self, x, y):
 		res = x.copy()
 		res.extend(y)
 		return res
-	
+
+
 class DictAdder(Adder):
 	def add(self, x, y):
 		res = x.copy()
 		res.update(y)
 		return res
+
 
 if __name__ == '__main__':
 	print('Testing ListAdder.')
@@ -38,7 +41,7 @@ if __name__ == '__main__':
 	print('\nTesting DictAdder.')
 	d1 = {1: 'a', 2: 'b', 3: 'c'}
 	d2 = {9: 'z', 8: 'y', 7: 'x'}
-	dRes = {42:'spam'}
+	dRes = {42: 'spam'}
 	dictAdder = DictAdder(dRes)
 	print('Initially dRes = {0}'.format(dRes))
 	print('DictAdder.add({0}, {1}): {2}'.format(d1, d2, dictAdder.add(d1, d2)))
