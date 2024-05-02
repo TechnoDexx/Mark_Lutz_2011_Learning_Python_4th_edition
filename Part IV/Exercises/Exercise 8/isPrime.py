@@ -10,6 +10,7 @@ def isPrime(y):
 	else:
 		print(y, 'is prime')
 
+
 isPrime(13)
 isPrime(13.0)
 isPrime(15)

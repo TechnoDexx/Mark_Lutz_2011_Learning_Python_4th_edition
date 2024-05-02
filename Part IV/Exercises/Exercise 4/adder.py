@@ -7,6 +7,7 @@ def adder(**args):
 		sum += next
 	return sum
 
+
 print(adder(good=2, bad=3, ugly=4))
 print(adder(good='spam', bad='eggs', ugly='toast'))
 print(adder(good=['a', 'b'], bad=['c', 'd'], ugly=['e', 'f']))
